@@ -53,4 +53,4 @@ tidy_set_2$subjectId <- NULL
 tidy_set_2$activity <- NULL
 
 # Write the tidy set file
-write.csv(tidy_set_2, "./data/UCI HAR Dataset/tidy_set_2.csv", row.names=FALSE)
+write.table(tidy_set_2, "./data/UCI HAR Dataset/tidy_set_2.txt", row.names=FALSE)
