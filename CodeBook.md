@@ -4,6 +4,7 @@ The code book describe the data used in this project and the processing done to 
 
 **Variables**
 
+*Step 1 :*
 - X_test : feature of the test data set
 - y_test : activity of the test data set
 - subject_test : subject of the test data set
@@ -13,12 +14,15 @@ The code book describe the data used in this project and the processing done to 
 - feature : features labels of the data set
 - activity_labels : activity labels of the data set
 
+*Step 2 :*
 - train_set : merge of the X_train, y_train and subject_train
 - test_set : merge of the X_test, y_test and subject_test
 - global_set : merge of the train and test set
 
+*Step 3 :*
 - tidy_set : global set with mean and standard deviation extraction
 
+*Step 4 :*
 - tidy_set_2 : aggregate tidy set by activity and subject
 
 **Processing summary**
