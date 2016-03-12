@@ -1,5 +1,7 @@
 ## Code Book
 
+The code book describe the data used in this project and the processing done to create the tidy data set.
+
 **Variables**
 
 - X_test : feature of the test data set
@@ -19,7 +21,7 @@
 
 - tidy_set_2 : aggregate tidy set by activity and subject
 
-**Summaries calculated**
+**Processing summary**
 
 1. All the relevant data files are loaded
 2. A merge between train et test data set is performed, column name are setted from the feature file (global_set)
